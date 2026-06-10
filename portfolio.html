@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+/* Header */
+header{
+    background:#2c3e50;
+    color:white;
+    padding:20px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+nav a:hover{
+    color:#f1c40f;
+}
+
+/* Hero Section */
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:#34495e;
+    color:white;
+}
+
+.hero img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid white;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+.btn{
+    display:inline-block;
+    background:#f1c40f;
+    color:black;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+/* Sections */
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+h2{
+    margin-bottom:20px;
+    color:#2c3e50;
+}
+
+.about p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
+
+/* Skills */
+.skills-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skill{
+    background:#2c3e50;
+    color:white;
+    padding:15px 25px;
+    border-radius:8px;
+}
+
+/* Projects */
+.projects-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.project{
+    background:white;
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Contact */
+.contact p{
+    margin:10px 0;
+}
+
+/* Footer */
+footer{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <div class="logo">My Portfolio</div>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <img src="https://via.placeholder.com/180" alt="Profile Photo">
+
+    <h1>Haripriya K</h1>
+
+    <p>Aspiring Web Developer & Designer</p>
+
+    <a href="#" class="btn">Download Resume</a>
+</section>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+
+    <p>
+        I am a passionate student interested in Web Development,
+        UI/UX Design, and Graphic Design. I enjoy creating responsive
+        websites and learning new technologies to improve my skills.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Python</div>
+        <div class="skill">Canva</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>Designed a personal portfolio using HTML and CSS.</p>
+        </div>
+
+        <div class="project">
+            <h3>Landing Page</h3>
+            <p>Created a responsive landing page for beginners.</p>
+        </div>
+
+        <div class="project">
+            <h3>Logo Design</h3>
+            <p>Designed creative logos using Canva.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+
+    <p>Email: haripriya@example.com</p>
+    <p>Phone: +91 9876543210</p>
+    <p>LinkedIn: linkedin.com/in/haripriya</p>
+</section>
+
+<footer>
+    <p>© 2026 Haripriya K | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
